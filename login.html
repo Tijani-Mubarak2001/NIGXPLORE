@@ -1,0 +1,79 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/LogStyle.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/top.css' %}">
+
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="/">Home</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="{% url 'register' %}">Register</a>
+                </div>
+
+
+            </div>
+
+
+            <div class="right-side">
+                <div class="brand">
+                    <div>WELCOME TO NIGXPLORE</div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+   <div class="WholeBody" style="background-image:url({% static 'images/photo-1508672019048-805c876b67e2.jpeg' %})">
+       <div class="container">
+
+        <header>
+            <div class="Nig">NIGXPLORE</div>
+        </header>
+
+        <nav>
+        </nav>
+
+        <main>
+            <div class="TheForm">
+                <h2> LOGIN </h2>
+                <h3>Enter Username And Password</h3>
+                <form action="login" method="post">
+                        {% csrf_token %}
+                        <h5>Username:</h5><input type="text" name="username" placeholder="username"><br>
+                        <h5>Password:</h5><input type="password" name="password" placeholder="password"><br>
+                        <input type="Submit">
+            </form>
+            </div>
+
+            <div>
+                {% for message in messages %}
+                <h3> {{ message }} </h3>
+                {% endfor %}
+            </div>
+        </main>
+
+        <footer></footer>
+
+
+    </div>
+
+   </div>
+
+</body>
+</html>

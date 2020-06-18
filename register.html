@@ -1,0 +1,83 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/LogStyle.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/top.css' %}">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="/">Home</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="{% url 'login' %}">Login</a>
+                </div>
+
+
+            </div>
+            <div class="right-side">
+                <div class="brand">
+                    <div>WELCOME TO NIGXPLORE</div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+   <div class="WholeBody" style="background-image:url({% static 'images/photo-1476514525535-07fb3b4ae5f1.jpeg' %})">
+       <div class="container">
+
+        <header>
+            <div class="Nig">NIGXPLORE</div>
+        </header>
+
+        <nav>
+        </nav>
+
+        <main>
+            <div class="TheForm">
+                <h2> REGISTER </h2>
+                <h3>Enter All Credentials Carefully</h3>
+                <form action="register" method="post">
+                    {% csrf_token %}
+
+                    <input type="text" name="first_name" placeholder="First Name"><br>
+                    <input type="text" name="last_name" placeholder="Last Name"><br>
+                    <input type="text" name="username" placeholder="Username"><br>
+                    <input type="email" name="email" placeholder="email"><br>
+                    <input type="password" name="password1" placeholder="Password"><br>
+                    <input type="password" name="password2" placeholder="Confirm Password"><br>
+                    <input type="Submit">
+
+                </form>
+            </div>
+
+            <div>
+                {% for message in messages %}
+                <h3> {{ message }} </h3>
+                {% endfor %}
+            </div>
+        </main>
+
+        <footer></footer>
+
+
+    </div>
+
+   </div>
+
+</body>
+</html>
