@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58e5b226-984e-40c9-93eb-1fba30ee9b04" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aRYNYGnPDLZlZvmFVH1mSB3Dwp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tijani Mubarak\PycharmProjects\Travelnow\static\images" />
+      <recent name="C:\Users\Tijani Mubarak\PycharmProjects\Travelnow\static\plugins\OwlCarousel2-2.2.1" />
+      <recent name="C:\Users\Tijani Mubarak\PycharmProjects\Travelnow\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tijani Mubarak\PycharmProjects\Travelnow\static\plugins\OwlCarousel2-2.2.1" />
+      <recent name="C:\Users\Tijani Mubarak\PycharmProjects\Travelnow\assets\plugins\Isotope" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58e5b226-984e-40c9-93eb-1fba30ee9b04" name="Default Changelist" comment="" />
+      <created>1586699834039</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586699834039</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="118" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586703629094">
+      <screen x="0" y="0" width="1093" height="614" />
+    </state>
+    <state x="304" y="118" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1093.614@0.0.1093.614" timestamp="1586703629094" />
+    <state x="327" y="66" key="FileChooserDialogImpl" timestamp="1586700139431">
+      <screen x="0" y="0" width="1093" height="614" />
+    </state>
+    <state x="327" y="66" key="FileChooserDialogImpl/0.0.1093.614@0.0.1093.614" timestamp="1586700139431" />
+    <state x="58" y="0" key="SettingsEditor" timestamp="1592085831217">
+      <screen x="0" y="0" width="1093" height="574" />
+    </state>
+    <state x="58" y="0" key="SettingsEditor/0.0.1093.574@0.0.1093.574" timestamp="1592085831217" />
+    <state x="255" y="127" key="com.intellij.ide.util.TipDialog" timestamp="1592470484911">
+      <screen x="0" y="0" width="1093" height="574" />
+    </state>
+    <state x="255" y="127" key="com.intellij.ide.util.TipDialog/0.0.1093.574@0.0.1093.574" timestamp="1592470484911" />
+    <state x="255" y="136" key="com.intellij.ide.util.TipDialog/0.0.1093.614@0.0.1093.614" timestamp="1589389342093" />
+    <state x="240" y="145" width="663" height="283" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1592085453162">
+      <screen x="0" y="0" width="1093" height="574" />
+    </state>
+    <state x="240" y="145" width="663" height="283" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1093.574@0.0.1093.574" timestamp="1592085453162" />
+    <state x="209" y="-2" width="672" height="634" key="search.everywhere.popup" timestamp="1592432420208">
+      <screen x="0" y="0" width="1093" height="574" />
+    </state>
+    <state x="209" y="-2" width="672" height="634" key="search.everywhere.popup/0.0.1093.574@0.0.1093.574" timestamp="1592432420208" />
+    <state x="209" y="-1" width="672" height="678" key="search.everywhere.popup/0.0.1093.614@0.0.1093.614" timestamp="1586719626721" />
+  </component>
+</project>
